@@ -74,10 +74,9 @@ animation-fill-mode:forward;
     height:600px;
     width:100%;
     overflow:hidden;
+    position:relative;
 
 }
-
-
 
 /* creating a zoom effect */
 
@@ -88,4 +87,24 @@ animation-fill-mode:forward;
     to{
         transform: scale(1.1);
     }
+}
+
+/*cover text styling*/
+#cover-text, #cover-text h2{
+    color:white;
+   }
+#cover-text{
+    font-size: 130%;
+    font-family:oswald, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:4px;
+
+    height:200px;
+    width:300px;
+    padding-top:40px;
+    padding-left:10px;
+    background-color:rgba(226, 84, 84, 0.7);
+    bottom:30px;
+    right:150px;
+    position:absolute;
 }
