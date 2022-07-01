@@ -195,3 +195,24 @@ hr{
     background-position:center;
     overflow:hidden;
 }
+
+
+
+#times div{
+    color:#fafafa;
+    background-color:rgba(58, 55, 55, 0.7);
+    height:300px;
+    width:20%;
+    float:left;
+    padding-top:30px;
+    padding-left:10px;
+    text-align:center;
+    border-style:solid;
+    border-color:white;
+    border-width:2px;
+    box-sizing:border-box;
+}
+
+#times h2{
+    color:#fafafa;
+}
