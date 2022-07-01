@@ -186,3 +186,12 @@ hr{
     background:url("../images/ethos-center-image.jpg");
     
 }
+
+#times{
+    width:100%;
+    background-image:url("../images/Location-image.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    overflow:hidden;
+}
