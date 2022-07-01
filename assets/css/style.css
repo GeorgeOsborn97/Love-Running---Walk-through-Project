@@ -216,3 +216,20 @@ hr{
 #times h2{
     color:#fafafa;
 }
+/*social links*/
+footer{
+    height:150px;
+}
+.social-media{
+text-align:center;
+font-size:160%;
+margin-top:75px;
+}
+.social-media > li{
+    display:inline;
+    margin:100px;
+    padding-left:10px;
+}
+.social-media i{
+    color:#3a3a3a;
+}
