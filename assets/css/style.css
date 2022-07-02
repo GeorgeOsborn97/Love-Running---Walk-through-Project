@@ -243,7 +243,7 @@ margin-top:75px;
 #gallery-photos > img{
     width:100%;
 }
-
+/*tablet view*/
 @media screen and (max-width: 1200px){
     #club-ethos{
         width:65%;
@@ -268,4 +268,40 @@ margin-top:75px;
     hr {
         display:none;
     }
+}
+/*Phone view*/
+@media screen and (max-width: 950px){
+    #menu{
+        clear:left;
+        float:left;
+        margin-left:30px;
+        margin-bottom:20px;
+        line-height:25px;
+    }
+    #cover-text{
+        left:0;
+    }
+    #club-ethos{
+        width:90%;
+        height:1200px;
+       margin:0 auto;
+    }
+    .left-heading, .left-heading{
+     
+        width:inherit;
+        
+    }
+    .right-heading h2, .left-heading h2{
+        width:100%;
+        text-align:center;
+    }
+   
+    .right-heading p, .left-heading p{
+        width:100%;
+        text-align:center;
+        padding:0 20px;
+    }
+   
+    
+
 }
