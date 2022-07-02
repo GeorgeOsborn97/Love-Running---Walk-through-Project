@@ -319,10 +319,20 @@ margin-top:75px;
     #gallery-photos{
         column-count:2;
     }
+    .social-media > li{
+        display:inline;
+        margin:40px;
+        padding-left:10px;
+}
 
 }
 @media screen and (max-width: 800px){
     #gallery-photos{
         column-count:2;
     }
+    .social-media > li{
+        display:inline;
+        margin:40px;
+        padding-left:10px;
+}
 }
