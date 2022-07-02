@@ -316,4 +316,13 @@ margin-top:75px;
         padding:0;
     }
 
+    #gallery-photos{
+        column-count:2;
+    }
+
+}
+@media screen and (max-width: 800px){
+    #gallery-photos{
+        column-count:2;
+    }
 }
